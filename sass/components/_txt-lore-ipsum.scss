@@ -46,17 +46,18 @@ $--Withe-Grey: #f5f4fa;
 }
 
 .main-txt-body {
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
+  line-height: 24px;
   color: $--Grey;
   width: 270px;
   height: 75px;
-  margin: 0px;
 }
 h3{
   padding-bottom: 10px;
 }
-.main-txt-body {
+.main__main-txt-body {
   font-weight: 400;
   font-size: 14px;
   color: $--Grey;
