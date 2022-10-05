@@ -1,6 +1,7 @@
 $--Withe-Grey: #f5f4fa;
 $--Light-Black: #212121;
 $--Svg-grey: #afb1b8;
+$--White: #ffffff;
 
 $--PBox-1: rgba(0, 0, 0, 0.1);
 $--PBox-2: rgba(0, 0, 0, 0.08);
@@ -40,7 +41,7 @@ $transition-brand: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .box-team-item {
-  background-color: var(--White);
+  background-color: $--White;
   width: 270px;
   box-shadow: 0px 1px 3px $--Shadow-RB-1, 0px 1px 1px $--Shadow-RB-2,
     0px 2px 1px $--Shadow-RB-3;
