@@ -1091,4 +1091,29 @@ h3 {
   gap: 30px;
   margin: 0px;
   padding-bottom: 94px;
+}
+
+.thumb {
+  position: relative;
+  margin: 10px;
+  overflow: hidden;
+}
+
+.thumb > .label {
+  position: absolute;
+  top: 224px;
+  right: 0;
+  margin: 0;
+  width: 370px;
+  height: 70px;
+  padding-top: 27px;
+  text-align: center;
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  background: rgba(47, 48, 58, 0.8);
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
