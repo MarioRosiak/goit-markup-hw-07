@@ -1,15 +1,14 @@
 $--Light-Black: #212121;
 $--White: #ffffff;
 
-.section__what-we-do {
+.what-we-do {
   width: 100%;
   padding-bottom: 94px;
   margin: 0px;
   display: block;
   justify-items: center;
-
 }
-.txt-main {
+.what-we-do__header {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
@@ -18,7 +17,7 @@ $--White: #ffffff;
   margin: 0px;
   padding-top: 94px;
 }
-.section__img {
+.what-we-do__img {
   padding: 50px 0px 0px 0px;
   display: flex;
   justify-items: center;
@@ -28,12 +27,12 @@ $--White: #ffffff;
   margin: 0px;
   padding-bottom: 94px;
 }
-.thumb {
+.what-we-do__thumb {
   position: relative;
   margin: 10px;
   overflow: hidden;
 }
-.thumb>.label {
+.what-we-do__thumb > .label {
   position: absolute;
   top: 224px;
   right: 0;

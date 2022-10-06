@@ -1,12 +1,10 @@
 $--Grey: #757575;
 $--Withe-Grey: #f5f4fa;
 
-.main__proper-text {
-  padding-top: 600px;
+.main {
   display: flex;
   flex-basis: calc((100% - 3 * 30px) / 4);
   justify-content: center;
-  margin: 0;
   padding-bottom: 94px;
 }
 
@@ -33,7 +31,7 @@ $--Withe-Grey: #f5f4fa;
   margin: 0;
 }
 
-.main__proper-text-set {
+.main__proper-set {
   width: 1200px;
   display: flex;
   padding: 94px 0px 0px 0px;
@@ -41,11 +39,11 @@ $--Withe-Grey: #f5f4fa;
   margin: 0;
 }
 
-.main__proper-text-item {
+.main__header {
   margin-right: 30px;
 }
 
-.main__main-txt-body {
+.main__txt-body {
   font-family: "Roboto";
   font-weight: 400;
   font-size: 14px;
@@ -54,7 +52,7 @@ $--Withe-Grey: #f5f4fa;
   width: 270px;
   height: 75px;
 }
-h3{
+h3 {
   padding-bottom: 10px;
 }
 .main__main-txt-body {

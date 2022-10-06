@@ -17,7 +17,7 @@ $--Dark-Blue: #2f303a;
   display: block;
   padding-top: 60px;
 }
-.container {
+.footer__container {
   width: 1200px;
   display: block;
 }
@@ -42,7 +42,7 @@ $--Dark-Blue: #2f303a;
   line-height: 31px;
   color: $--White;
 }
-.street-item {
+.footer__street-item {
   padding-top: 20px;
   width: 1200px;
 }
@@ -66,21 +66,7 @@ $--Dark-Blue: #2f303a;
   display: block;
   width: 206px;
 }
-.social-media-icon-footer {
-  fill: $--White;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: $--Black-social-media;
-  cursor: pointer;
-  transition: $transition-brand;
-}
-.social-media-icon:hover,
-.social-media-icon-footer:hover {
-  background-color: $--Light-Blue;
-  fill: $--White;
-}
-.input-newsletter {
+.footer__input-newsletter {
   position: relative;
   width: 358px;
   height: 50px;
