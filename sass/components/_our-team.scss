@@ -73,7 +73,7 @@ $transition-brand: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-bottom: 30px;
   transition: $transition-brand;
 }
-.social-media-icon {
+.team__social-media-icon {
   fill: $--Svg-grey;
   width: 44px;
   height: 44px;
@@ -82,7 +82,7 @@ $transition-brand: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   cursor: pointer;
   transition: $transition-brand;
 }
-.social-media-icon:hover {
+.team__social-media-icon:hover {
   background-color: $--Light-Blue;
   fill: $--White;
 }
