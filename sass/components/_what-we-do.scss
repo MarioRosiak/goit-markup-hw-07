@@ -1,23 +1,27 @@
 $--Light-Black: #212121;
 $--White: #ffffff;
 
-.what-we-do {
+.offer {
   width: 100%;
   padding-bottom: 94px;
   margin: 0px;
   display: block;
   justify-items: center;
 }
-.what-we-do__header {
+.offer__container{
+
+  margin: 0px;
+  padding-top: 94px;
+}
+.offer__header {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   color: $--Light-Black;
-  margin: 0px;
-  padding-top: 94px;
+
 }
-.what-we-do__img {
+.offer__img {
   padding: 50px 0px 0px 0px;
   display: flex;
   justify-items: center;
@@ -27,12 +31,12 @@ $--White: #ffffff;
   margin: 0px;
   padding-bottom: 94px;
 }
-.what-we-do__thumb {
+.offer__thumb {
   position: relative;
   margin: 10px;
   overflow: hidden;
 }
-.what-we-do__thumb > .label {
+.offer__thumb > .label {
   position: absolute;
   top: 224px;
   right: 0;

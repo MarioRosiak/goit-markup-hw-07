@@ -192,6 +192,10 @@ h4 {
   margin: 0px;
 }
 
+.offer__button {
+  margin: 0px;
+}
+
 .btn-services {
   background-color: #2196f3;
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -324,7 +328,7 @@ h4 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 94px 0px 0px 0px;
+  padding: 30px 0 0 0;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -422,7 +426,7 @@ h3 {
   margin-top: 30px;
 }
 
-.social-media {
+.team__social-media {
   padding: 16px 32px 18px 32px;
   height: 56px;
   padding: 0;
@@ -1069,7 +1073,7 @@ h3 {
           transform: translatex(0);
 }
 
-.what-we-do {
+.offer {
   width: 100%;
   padding-bottom: 94px;
   margin: 0px;
@@ -1077,17 +1081,20 @@ h3 {
   justify-items: center;
 }
 
-.what-we-do__header {
+.offer__container {
+  margin: 0px;
+  padding-top: 94px;
+}
+
+.offer__header {
   text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
   color: #212121;
-  margin: 0px;
-  padding-top: 94px;
 }
 
-.what-we-do__img {
+.offer__img {
   padding: 50px 0px 0px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1103,13 +1110,13 @@ h3 {
   padding-bottom: 94px;
 }
 
-.what-we-do__thumb {
+.offer__thumb {
   position: relative;
   margin: 10px;
   overflow: hidden;
 }
 
-.what-we-do__thumb > .label {
+.offer__thumb > .label {
   position: absolute;
   top: 224px;
   right: 0;
