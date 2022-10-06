@@ -927,6 +927,18 @@ h3 {
   letter-spacing: 0.03em;
 }
 
+.box-button {
+  background-color: var(--Withe);
+  padding-bottom: 1px;
+  padding: 94px 0px 50px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .hidden {
   background-color: #ffffff;
   padding-bottom: 1px;
@@ -961,6 +973,9 @@ h3 {
           column-gap: 30px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  margin: 0px;
+  width: 1600px;
+  padding-left: 215px;
 }
 
 .projects__section-gray {

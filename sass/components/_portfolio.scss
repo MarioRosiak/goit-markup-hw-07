@@ -6,6 +6,13 @@ $--Grey: #757575;
 $transition-brand: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 $transitiom-modal: 500ms cubic-bezier(0.4, 0, 0.2, 1);
 
+.box-button {
+  background-color: var(--Withe);
+  padding-bottom: 1px;
+  padding: 94px 0px 50px 0px;
+  display: flex;
+  justify-content: center;
+}
 .hidden {
   background-color: $--White;
   padding-bottom: 1px;
@@ -19,12 +26,16 @@ $transitiom-modal: 500ms cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
   justify-content: center;
 }
+
 .projects__box-set {
   position: relative;
   display: flex;
   gap: 30px;
   column-gap: 30px;
   flex-wrap: wrap;
+  margin: 0px;
+  width: 1600px;
+  padding-left: 215px;
 }
 
 .projects__section-gray {
