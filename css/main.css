@@ -927,8 +927,8 @@ h3 {
   letter-spacing: 0.03em;
 }
 
-.box {
-  background-color: var(--Withe);
+.hidden {
+  background-color: #ffffff;
   padding-bottom: 1px;
   padding: 94px 0px 50px 0px;
   display: -webkit-box;
@@ -939,7 +939,7 @@ h3 {
           justify-content: center;
 }
 
-.box-container {
+.projects {
   padding-bottom: 94px;
   margin: 0px;
   display: -webkit-box;
@@ -950,7 +950,7 @@ h3 {
           justify-content: center;
 }
 
-.box-set {
+.projects__box-set {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -961,11 +961,9 @@ h3 {
           column-gap: 30px;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 1600px;
-  padding-left: 215px;
 }
 
-.section-gray {
+.projects__section-gray {
   position: relative;
   display: flex-box;
   -ms-flex-preferred-size: calc((100% - 60px) / 3);
@@ -983,12 +981,12 @@ h3 {
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.section-gray:hover {
+.projects__section-gray:hover {
   -webkit-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
           box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.menu-box-name {
+.projects__menu-name {
   font-weight: 700;
   font-size: 18px;
   color: #212121;
@@ -997,7 +995,7 @@ h3 {
   margin-bottom: 0px;
 }
 
-.menu-box-description {
+.projects__menu-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
