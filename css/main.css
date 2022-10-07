@@ -2,12 +2,18 @@ header {
   margin: auto;
   height: 80px;
   width: 100%;
-}
-
-.header__section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  justify-items: center;
+  width: 1200px;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
   width: 1200px;
 }
 
